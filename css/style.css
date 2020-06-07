@@ -167,7 +167,7 @@ ul, ol {
 .intro .intro-body {
 	display: table-cell;
 	vertical-align: middle;
-	color: #222;
+	color: #eee;
 }
 .intro .intro-body .intro-text {
 	font-size: 18px;
