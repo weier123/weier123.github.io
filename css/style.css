@@ -167,7 +167,7 @@ ul, ol {
 .intro .intro-body {
 	display: table-cell;
 	vertical-align: middle;
-	color: #eee;
+	color: #555555;
 }
 .intro .intro-body .intro-text {
 	font-size: 18px;
@@ -192,7 +192,7 @@ ul, ol {
 /* About Section */
 #about {
 	padding: 80px 0;
-	background: #ffffff; /* Old browsers */
+	background: #dddddd; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
@@ -239,7 +239,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /* Portfolio Section */
 #portfolio {
 	padding: 80px 0;
-	background: #ffffff; /* Old browsers */
+	background: url(../img/contact-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	/*background: #ffffff; *//* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
